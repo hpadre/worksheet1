@@ -1,0 +1,20 @@
+    1  passwd
+    2  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    3  ls
+    4  git --version
+    5  mkdir ws_1
+    6  ls
+    7  cd ws_1
+    8  git init
+    9  touch newfile.txt
+   10  git status
+   11  git add newfile.txt
+   12  git status
+   13  git commit -m "This is my first commit!"
+   14  cd ..
+   15  ls
+   16  cd ws_1
+   17  ls
+   18  rm newfile.txt
+   19  ls
+   20  history > cmds.log
